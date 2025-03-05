@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{30EFA82E-CDDA-3D32-84F6-432F3A95C3B8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Common</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\VulkanTutorialsInternal\x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\VulkanTutorialsInternal\x64\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SDLCheck>true</SDLCheck>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_MBCS;ASSETROOTLOCATION="C:/Code/VulkanTutorialsInternal/Assets/";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;_MBCS;ASSETROOTLOCATION=\"C:/Code/VulkanTutorialsInternal/Assets/\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SDLCheck>true</SDLCheck>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_MBCS;ASSETROOTLOCATION="C:/Code/VulkanTutorialsInternal/Assets/";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_WARNINGS;_MBCS;ASSETROOTLOCATION=\"C:/Code/VulkanTutorialsInternal/Assets/\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Code/VulkanTutorialsInternal/NCLCoreClasses/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/VulkanTutorialsInternal -BC:/Code/VulkanTutorialsInternal --check-stamp-file C:/Code/VulkanTutorialsInternal/NCLCoreClasses/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\VulkanTutorialsInternal\CMake\Default.cmake;C:\Code\VulkanTutorialsInternal\CMake\DefaultCXX.cmake;C:\Code\VulkanTutorialsInternal\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\VulkanTutorialsInternal\NCLCoreClasses\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Code/VulkanTutorialsInternal/NCLCoreClasses/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/VulkanTutorialsInternal -BC:/Code/VulkanTutorialsInternal --check-stamp-file C:/Code/VulkanTutorialsInternal/NCLCoreClasses/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\VulkanTutorialsInternal\CMake\Default.cmake;C:\Code\VulkanTutorialsInternal\CMake\DefaultCXX.cmake;C:\Code\VulkanTutorialsInternal\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\VulkanTutorialsInternal\NCLCoreClasses\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Assets.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Assets.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\SimpleFont.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\SimpleFont.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\TextureLoader.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\TextureLoader.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\TextureWriter.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\TextureWriter.h" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Camera.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Maths.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Maths.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Matrix2.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Matrix2.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Matrix3.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Matrix3.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Matrix4.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Matrix4.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Plane.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Plane.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Quaternion.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Quaternion.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Vector2.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Vector2.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Vector3.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Vector3.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Vector4.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Vector4.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\MeshAnimation.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\MeshAnimation.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\MeshGeometry.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\MeshGeometry.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\MeshMaterial.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\MeshMaterial.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\RendererBase.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\RendererBase.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\ShaderBase.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\ShaderBase.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\TextureBase.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\TextureBase.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Camera.cpp" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\GameTimer.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\GameTimer.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Keyboard.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Keyboard.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Mouse.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Mouse.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Window.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Window.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Win32Keyboard.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Win32Keyboard.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Win32Mouse.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Win32Mouse.h" />
+    <ClCompile Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Win32Window.cpp" />
+    <ClInclude Include="C:\Code\VulkanTutorialsInternal\NCLCoreClasses\Win32Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Code\VulkanTutorialsInternal\ZERO_CHECK.vcxproj">
+      <Project>{A5B73E8D-2019-32DF-9C5D-B105DE3BD03D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
