@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C53FC539-DD65-3D9C-9042-0BFA9BD5DF12}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>VulkanRendering</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\CSC8503 Code 2024\VulkanRendering\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VulkanRendering.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VulkanRendering</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\CSC8503 Code 2024\VulkanRendering\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VulkanRendering.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VulkanRendering</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VulkanSDK\1.3.283.0\Include;F:\CSC8503 Code 2024\NCLCoreClasses;C:\VulkanSDK\1.3.283.0\Include..\..\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/CSC8503 Code 2024/VulkanRendering/VulkanRendering.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ASSETROOTLOCATION="F:/CSC8503 Code 2024/Assets/";USEVULKAN;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;WIN32_LEAN_AND_MEAN;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC;VK_NO_PROTOTYPES;VULKAN_HPP_NO_STRUCT_CONSTRUCTORS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ASSETROOTLOCATION=\"F:/CSC8503 Code 2024/Assets/\";USEVULKAN;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;WIN32_LEAN_AND_MEAN;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC;VK_NO_PROTOTYPES;VULKAN_HPP_NO_STRUCT_CONSTRUCTORS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VulkanSDK\1.3.283.0\Include;F:\CSC8503 Code 2024\NCLCoreClasses;C:\VulkanSDK\1.3.283.0\Include..\..\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VulkanSDK\1.3.283.0\Include;F:\CSC8503 Code 2024\NCLCoreClasses;C:\VulkanSDK\1.3.283.0\Include..\..\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VulkanSDK\1.3.283.0\Include;F:\CSC8503 Code 2024\NCLCoreClasses;C:\VulkanSDK\1.3.283.0\Include..\..\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/CSC8503 Code 2024/VulkanRendering/VulkanRendering.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETROOTLOCATION="F:/CSC8503 Code 2024/Assets/";USEVULKAN;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;WIN32_LEAN_AND_MEAN;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC;VK_NO_PROTOTYPES;VULKAN_HPP_NO_STRUCT_CONSTRUCTORS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETROOTLOCATION=\"F:/CSC8503 Code 2024/Assets/\";USEVULKAN;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;WIN32_LEAN_AND_MEAN;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC;VK_NO_PROTOTYPES;VULKAN_HPP_NO_STRUCT_CONSTRUCTORS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VulkanSDK\1.3.283.0\Include;F:\CSC8503 Code 2024\NCLCoreClasses;C:\VulkanSDK\1.3.283.0\Include..\..\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VulkanSDK\1.3.283.0\Include;F:\CSC8503 Code 2024\NCLCoreClasses;C:\VulkanSDK\1.3.283.0\Include..\..\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\CSC8503 Code 2024\VulkanRendering\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/CSC8503 Code 2024/VulkanRendering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SF:/CSC8503 Code 2024" "-BF:/CSC8503 Code 2024" --check-stamp-file "F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\CSC8503 Code 2024\VulkanRendering\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/CSC8503 Code 2024/VulkanRendering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SF:/CSC8503 Code 2024" "-BF:/CSC8503 Code 2024" --check-stamp-file "F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\CSC8503 Code 2024\VulkanRendering\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\CMakeFiles\VulkanRendering.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/VulkanRendering.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/VulkanRendering.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanUtils.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBuffers.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanCompute.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanComputePipelineBuilder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDescriptorSetLayoutBuilder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDynamicRenderBuilder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanTextureBuilder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanMesh.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanPipeline.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanPipelineBuilderBase.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanPipelineBuilder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRenderer.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRenderPassBuilder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBase.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShader.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBuilder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanTexture.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBufferBuilder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\SmartTypes.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDescriptorSetWriter.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDescriptorSetBinder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDescriptorBufferWriter.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBVHBuilder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRTShader.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRayTracingPipelineBuilder.h" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBindingTableBuilder.h" />
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanUtils.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBuffers.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanCompute.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanComputePipelineBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDescriptorSetLayoutBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDynamicRenderBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanTextureBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanMesh.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanPipelineBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRenderer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRenderPassBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBase.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShader.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBufferBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanTexture.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBVHBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRTShader.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRayTracingPipelineBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBindingTableBuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/CSC8503 Code 2024/VulkanRendering/CMakeFiles/VulkanRendering.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\VulkanSDK\1.3.283.0\Source\SPIRV-Reflect\spirv_reflect.h" />
+    <None Include="C:\VulkanSDK\1.3.283.0\Source\SPIRV-Reflect\spirv_reflect.c">
+    </None>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\CMakeFiles\VulkanRendering.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\CMakeFiles\VulkanRendering.dir\Release\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\CSC8503 Code 2024\ZERO_CHECK.vcxproj">
+      <Project>{C5A6486E-A9FB-3C28-A0B7-E4B507071E5C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

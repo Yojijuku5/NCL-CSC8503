@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\CMakeFiles\VulkanRendering.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBuffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanCompute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanComputePipelineBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDescriptorSetLayoutBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDynamicRenderBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanTextureBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanPipelineBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRenderPassBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBufferBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBVHBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRTShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRayTracingPipelineBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBindingTableBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBuffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanCompute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanComputePipelineBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDescriptorSetLayoutBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDynamicRenderBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanTextureBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanPipelineBuilderBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanPipelineBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRenderPassBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBufferBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\SmartTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDescriptorSetWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDescriptorSetBinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanDescriptorBufferWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanBVHBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRTShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanRayTracingPipelineBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\VulkanShaderBindingTableBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VulkanSDK\1.3.283.0\Source\SPIRV-Reflect\spirv_reflect.h">
+      <Filter>SPIRV Reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\CMakeFiles\VulkanRendering.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\CSC8503 Code 2024\VulkanRendering\CMakeFiles\VulkanRendering.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\CSC8503 Code 2024\VulkanRendering\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\VulkanSDK\1.3.283.0\Source\SPIRV-Reflect\spirv_reflect.c">
+      <Filter>SPIRV Reflect</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6E283858-8B50-3CDB-8A43-8BD7847A12E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{D15C3B90-4024-3955-9B9E-0C355A6BD1C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SPIRV Reflect">
+      <UniqueIdentifier>{D2047F9B-AA13-36F5-BAB5-C048DAAD6B5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{42AF5E80-C96F-384B-BC20-1E284C55E19F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
